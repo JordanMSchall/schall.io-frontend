@@ -1,0 +1,8 @@
+.welcomecontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  margin: auto;
+  height: 75%;
+}
