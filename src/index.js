@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import NavBar from './components/navbar';
+import NaviBar from './components/navibar';
 import WelcomeContent from './components/welcomecontent';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
   renderNavBar() {
-      return <NavBar/>;
+      return <NaviBar/>;
   }
 
   renderWelcomeContent() {
