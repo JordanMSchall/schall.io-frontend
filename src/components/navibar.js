@@ -7,12 +7,13 @@ import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import './../css/navibar.css';
 
+
 class NaviBar extends React.Component {
   render() {
     return (
       <div className="navbar">
         <Navbar bg="light" expand="lg" variant="light">
-          <Navbar.Brand href="#home">SCHALL.io</Navbar.Brand>
+          <Navbar.Brand href="/"><img className="navlogo" src="favi.png"/>&nbsp;&nbsp;&nbsp;&nbsp;schall.io</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
