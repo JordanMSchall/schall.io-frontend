@@ -1,7 +1,8 @@
 .welcomecontent {
   display: flex;
   align-items: center;
+  align-content: center;
   background-color: grey;
   margin: auto;
-  height: 75%;
+  height: 90%;
 }

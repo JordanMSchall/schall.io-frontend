@@ -11,14 +11,13 @@ import './../css/navibar.css';
 class NaviBar extends React.Component {
   render() {
     return (
-      <div className="navbar">
-        <Navbar bg="light" expand="lg" variant="light">
+        <Navbar bg="light" expand="sm" sticky="top">
           <Navbar.Brand href="/"><img className="navlogo" src="favi.png"/>&nbsp;&nbsp;&nbsp;&nbsp;schall.io</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="#link">Game</Nav.Link>
+              <Nav.Link href="https://medium.com/@jordan.m.schall">Blog</Nav.Link>
               <NavDropdown title="Social Media" id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://www.linkedin.com/in/jordan-schall" target="_blank">Linkedin</NavDropdown.Item>
                 <NavDropdown.Item href="https://medium.com/@jordan.m.schall" target="_blank">Medium</NavDropdown.Item>
@@ -38,7 +37,6 @@ class NaviBar extends React.Component {
             </Form> */}
           </Navbar.Collapse>
         </Navbar>
-      </div>
     );
   }
 }
