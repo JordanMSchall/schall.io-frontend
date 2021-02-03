@@ -17,7 +17,7 @@ class NaviBar extends React.Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="#link">Game</Nav.Link>
               <NavDropdown title="Social Media" id="basic-nav-dropdown">
                 <NavDropdown.Item href="https://www.linkedin.com/in/jordan-schall" target="_blank">Linkedin</NavDropdown.Item>
@@ -27,8 +27,9 @@ class NaviBar extends React.Component {
                 <NavDropdown.Item href="https://twitter.com/phuzzii" target="_blank">Twitter</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="API's">
-                <NavDropdown.Item href="#action/3.4">phuzzii-API</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.4">Phuzzii</NavDropdown.Item>
                 <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">SLRP</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             {/* <Form inline>
