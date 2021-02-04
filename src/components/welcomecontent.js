@@ -1,16 +1,16 @@
 import React from 'react';
-import ServicesCard from './servicescard'
+import DraggableServicesCard from './draggableservicescard'
 import './../css/welcomecontent.css';
 
 class WelcomeContent extends React.Component {
-  renderServicesCard(){
-    return <ServicesCard />;
+  renderDraggableServicesCard(){
+    return <DraggableServicesCard />;
   }
   
   render() {
     return (
       <div className="welcomecontent">
-        {this.renderServicesCard()}
+        {this.renderDraggableServicesCard()}
       </div>
     );
   }
